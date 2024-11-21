@@ -1,0 +1,10 @@
+{
+  "name": "@sy-project/tsconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsconfig.base.json",
+  "module": "tsconfig.base.json",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

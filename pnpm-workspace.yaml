@@ -1,0 +1,6 @@
+packages:
+  - '@sy-h5/**'
+  - '@sy-pc/**'
+  - '@sy-biz/**'
+  - '@sy-project/**'
+  - '@sy-shared/*'

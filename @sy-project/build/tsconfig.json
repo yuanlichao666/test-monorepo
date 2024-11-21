@@ -1,0 +1,7 @@
+{
+  "extends": "@sy-project/tsconfig/tsconfig.node.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+  },
+  "include": ["./bin/**/*","./lib/**/*"]
+}

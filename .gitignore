@@ -1,0 +1,14 @@
+node_modules/
+**/node_modules/
+
+.rollup.cache/
+**/.rollup.cache/
+
+dist/
+**/dist/
+
+.umi/
+**/.umi/
+
+.idea/
+pnpm-lock.yaml
