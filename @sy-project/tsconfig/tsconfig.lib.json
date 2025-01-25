@@ -1,10 +1,18 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    //实际的构建配置在rollup，这里协为了编辑器加快编译
     "module": "ESNext",
     "target": "ESNext",
-    "lib": ["DOM"],
-    "noEmit": false,
-    "declaration": true,
+    "noEmit": false, //要js文件
+
+    //这里的库还是每个模版自己定义的
+    "lib": ["DOM", "ESNext"],
+
+    //模版自己需要的配置
+    "sourceMap": false, //要source map
+    "declaration": false, // 要.d.ts声明文件
+    "declarationMap": false, //要声明文件的source map
+    "emitDeclarationOnly": false
   }
 }

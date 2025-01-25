@@ -1,4 +1,7 @@
 {
   "extends": "@sy-project/tsconfig/tsconfig.lib.react.json",
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "baseUrl": "."
+  }
 }

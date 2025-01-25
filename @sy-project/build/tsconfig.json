@@ -1,7 +1,16 @@
 {
   "extends": "@sy-project/tsconfig/tsconfig.node.json",
   "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
     "baseUrl": ".",
+    "noEmit": true,
+    "paths": {
+      "lib/*": ["lib/*"],
+      "bin/*": ["bin/*"]
+    }
   },
-  "include": ["./bin/**/*","./lib/**/*"]
+  "include": ["lib/**/*","bin/**/*"]
 }

@@ -1,14 +1,14 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "ESNext",
     "target": "ESNext",
     "types": [
       "node"
     ],
-    "paths": {
-      "@lib/*": ["./lib/*"],
-      "@bin/*": ["./bin/*"]
-    }
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "resolveJsonModule": true
   }
 }

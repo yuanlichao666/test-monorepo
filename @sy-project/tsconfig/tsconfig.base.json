@@ -1,11 +1,12 @@
 {
+
   "compilerOptions": {
     /** 严格模式 **/
     "strict": true,
-
+    "noEmitOnError": true, //构建失败时不输出
 
     /** 通常由其他编译器生成**/
-    "noEmit": false, //不要js文件
+    "noEmit": true, //不要js文件
     "sourceMap": false, //不要source map
     "declaration": false, // 不要.d.ts声明文件
     "declarationMap": false, //不要声明文件的source map
@@ -18,12 +19,14 @@
     "skipLibCheck": true, //跳过类库检测
     "allowJs": true,  //允许导入js
 
+
+
     /** 语法规则 **/
     "noImplicitAny": false, // 不支持any
     "removeComments": true,    // 删除注释
     "experimentalDecorators": true, // 支持装饰器语法
     "forceConsistentCasingInFileNames": true, // 强制区分大小写
 
-    "incremental": true, //启用增量编译，配合reference，提升类型提示速度
+    "incremental": true //启用增量编译，配合reference，提升类型提示速度
   }
 }
